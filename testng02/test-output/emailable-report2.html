@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">TmpTest</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">21.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">TmpTest &#8212; failed</th></tr>
+<tr class="failedodd"><td>com.zhou.test.TakeScreenshotTest</td><td><a href="#m1"><b>testAdd2</b>  </a></td><td class="numi">1</td><td>1457338145128</td><td class="numi">14568</td></tr>
+<tr><th colspan="5">TmpTest &#8212; passed</th></tr>
+<tr class="passedodd"><td>com.zhou.test.TakeScreenshotTest</td><td><a href="#m2"><b>testAdd</b>  </a></td><td class="numi">1</td><td>1457338145121</td><td class="numi">7</td></tr>
+</table>
+<h1>TmpTest</h1>
+<h2 id="m1">com.zhou.test.TakeScreenshotTest:testAdd2</h2>
+<div>
+<h3>Test Messages</h3>
+<img src="../2016_03_07_16_09_19_testAdd2.jpg"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=48.0.2564.82)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 21:09:54&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_66&apos;
+Driver info: driver.version: ChromeDriver
+Session ID: 1e36035778bb2cbc91c4a2545233d23a
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:498)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+	at org.openqa.selenium.chrome.ChromeDriver.getScreenshotAs(ChromeDriver.java:177)
+	at com.zhou.testngutil.TakeScreenshot.takeScreenshotBase(TakeScreenshot.java:33)
+	at com.zhou.testngutil.TakeScreenshot.takeScreenshot(TakeScreenshot.java:51)
+	at com.zhou.testngutil.TakeScreenShotListener.takeScreenShot(TakeScreenShotListener.java:65)
+	at com.zhou.testngutil.TakeScreenShotListener.onTestFailure(TakeScreenShotListener.java:32)
+	at com.zhou.testngutil.TestAllListers.main(TestAllListers.java:62)
+... Removed 22 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary of zpp</a></p>
+<h2 id="m2">com.zhou.test.TakeScreenshotTest:testAdd</h2>
+<div>
+M3 WAS CALLED<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary of zpp</a></p>
+</body></html>

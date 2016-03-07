@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[M3 WAS CALLED]]>
+    </line>
+  </reporter-output>
+  <suite name="TmpSuite" duration-ms="15" started-at="2016-03-07T08:10:43Z" finished-at="2016-03-07T08:10:43Z">
+    <groups>
+    </groups>
+    <test name="TmpTest" duration-ms="15" started-at="2016-03-07T08:10:43Z" finished-at="2016-03-07T08:10:43Z">
+      <class name="com.zhou.test.TestNGSimpleTest">
+        <test-method status="PASS" signature="testAdd()[pri:0, instance:com.zhou.test.TestNGSimpleTest@1e81f4dc]" name="testAdd" duration-ms="6" started-at="2016-03-07T16:10:43Z" finished-at="2016-03-07T16:10:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[M3 WAS CALLED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testAdd2()[pri:0, instance:com.zhou.test.TestNGSimpleTest@1e81f4dc]" name="testAdd2" duration-ms="0" started-at="2016-03-07T16:10:43Z" finished-at="2016-03-07T16:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd2 -->
+      </class> <!-- com.zhou.test.TestNGSimpleTest -->
+    </test> <!-- TmpTest -->
+  </suite> <!-- TmpSuite -->
+</testng-results>

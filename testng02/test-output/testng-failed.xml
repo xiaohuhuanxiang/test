@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TmpSuite]">
+  <test name="TmpTest(failed)">
+    <classes>
+      <class name="com.zhou.test.TakeScreenshotTest">
+        <methods>
+          <include name="testAdd2"/>
+        </methods>
+      </class> <!-- com.zhou.test.TakeScreenshotTest -->
+    </classes>
+  </test> <!-- TmpTest(failed) -->
+</suite> <!-- Failed suite [TmpSuite] -->
